@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
-const API = "http://localhost:5000/api";
+const API = "https://skiez-campus-backend.onrender.com/api";
 
 const TEAMS = [
   { id: "uiux",   name: "UI/UX Design",       icon: "🎨", color: "#ec4899" },
